@@ -1,9 +1,9 @@
 @interface subjectReplace_ComposeBackEnd : NSObject {
-	//NSString *subject;
+
 }
 
-//@property(retain) NSString *subject;
 
-- (void)subjectReplace_setupContentsForView:(id)arg1;
+
+- (void)subjectReplace__continueToSetupContentsForView:(id)arg1 withParsedMessages:(id)arg2;
 @end
 

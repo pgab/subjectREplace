@@ -129,7 +129,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 			};
-			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectReplace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -201,7 +201,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Resources/Info.plist;
 				OTHER_CFLAGS = "-Wno-deprecated-declarations";
-				PRODUCT_IDENTIFIER = "org.example.${PRODUCT_NAME}";
+				PRODUCT_IDENTIFIER = "org.pgab.${PRODUCT_NAME}";
 				PRODUCT_NAME = subjectREplace;
 				WRAPPER_EXTENSION = mailbundle;
 			};
@@ -224,7 +224,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */ = {
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectReplace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB914008733D840010E9CD /* Release */,
