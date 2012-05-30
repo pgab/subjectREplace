@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B0C20B4F11DE050000A925AB /* subjectREplace.pkg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B0C20B5111DE050000A925AB /* Build configuration list for PBXAggregateTarget "subjectREplace.pkg" */;
+			buildPhases = (
+				B0C20B5011DE050000A925AB /* package.sh */,
+			);
+			dependencies = (
+			);
+			name = subjectREplace.pkg;
+			productName = pkg;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B0442D7D11CA441300268007 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0442D7C11CA441300268007 /* AppKit.framework */; };
+		B07F310F11E0D65300316145 /* Swizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F310E11E0D65300316145 /* Swizzler.m */; };
+		B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B096DAC011CE4C980019A5CF /* MVMailBundle.m */; };
+		B0BE0F2011CA30E000E58E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		B0FCD88111CE55C20093744D /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FCD88011CE55C20093744D /* Message.framework */; };
+		DA66ED741575A19500474E0A /* subjectReplace_ComposeBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		B0442D7C11CA441300268007 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		B07F310D11E0D65300316145 /* Swizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzler.h; sourceTree = "<group>"; };
+		B07F310E11E0D65300316145 /* Swizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzler.m; sourceTree = "<group>"; };
+		B096DABF11CE4C980019A5CF /* MVMailBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVMailBundle.h; sourceTree = "<group>"; };
+		B096DAC011CE4C980019A5CF /* MVMailBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVMailBundle.m; sourceTree = "<group>"; };
+		B0C0413A121FC650002E8C76 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		B0C163C911CB82BF00B6B512 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B0E275B311CE4CC5000D2AAD /* subjectREplace.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = subjectREplace.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FCD88011CE55C20093744D /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = Frameworks/Message.framework; sourceTree = "<group>"; };
+		DA66ED721575A19500474E0A /* subjectReplace_ComposeBackEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subjectReplace_ComposeBackEnd.h; sourceTree = "<group>"; };
+		DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subjectReplace_ComposeBackEnd.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BE0F1911CA30A900E58E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BE0F2011CA30E000E58E55 /* Foundation.framework in Frameworks */,
+				B0442D7D11CA441300268007 /* AppKit.framework in Frameworks */,
+				B0FCD88111CE55C20093744D /* Message.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* subjectREplace */ = {
+			isa = PBXGroup;
+			children = (
+				B05A9B0D11C60A72002F9DA4 /* Classes */,
+				B0C0413A121FC650002E8C76 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				B0E275B411CE4CC5000D2AAD /* Products */,
+			);
+			name = subjectREplace;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				B0442D7C11CA441300268007 /* AppKit.framework */,
+				B0FCD88011CE55C20093744D /* Message.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		B05A9B0D11C60A72002F9DA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA66ED721575A19500474E0A /* subjectReplace_ComposeBackEnd.h */,
+				DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */,
+				B096DABF11CE4C980019A5CF /* MVMailBundle.h */,
+				B096DAC011CE4C980019A5CF /* MVMailBundle.m */,
+				B07F310D11E0D65300316145 /* Swizzler.h */,
+				B07F310E11E0D65300316145 /* Swizzler.m */,
+				B0C163C911CB82BF00B6B512 /* Prefix.pch */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0E275B411CE4CC5000D2AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E275B311CE4CC5000D2AAD /* subjectREplace.mailbundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* subjectREplace.mailbundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "subjectREplace.mailbundle" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				B0BE0F1911CA30A900E58E55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = subjectREplace.mailbundle;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = subjectREplace;
+			productReference = B0E275B311CE4CC5000D2AAD /* subjectREplace.mailbundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* subjectREplace */;
+			productRefGroup = B0E275B411CE4CC5000D2AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* subjectREplace.mailbundle */,
+				B0C20B4F11DE050000A925AB /* subjectREplace.pkg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0C20B5011DE050000A925AB /* package.sh */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = package.sh;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "exec Resources/package.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */,
+				B07F310F11E0D65300316145 /* Swizzler.m in Sources */,
+				DA66ED741575A19500474E0A /* subjectReplace_ComposeBackEnd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
+				CURRENT_PROJECT_VERSION = 0.0.0;
+				FRAMEWORK_SEARCH_PATHS = Frameworks;
+				GCC_PREFIX_HEADER = Classes/Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Resources/Info.plist;
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				PRODUCT_IDENTIFIER = "org.example.${PRODUCT_NAME}";
+				PRODUCT_NAME = subjectREplace;
+				WRAPPER_EXTENSION = mailbundle;
+			};
+			name = Release;
+		};
+		B0C20B5211DE050000A925AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "subjectREplace.mailbundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C20B5111DE050000A925AB /* Build configuration list for PBXAggregateTarget "subjectREplace.pkg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C20B5211DE050000A925AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
