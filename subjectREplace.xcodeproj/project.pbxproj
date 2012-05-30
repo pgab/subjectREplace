@@ -129,7 +129,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 			};
-			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectReplace" */;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -224,7 +224,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectReplace" */ = {
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "subjectREplace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB914008733D840010E9CD /* Release */,
