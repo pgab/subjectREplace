@@ -26,7 +26,7 @@
 		B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B096DAC011CE4C980019A5CF /* MVMailBundle.m */; };
 		B0BE0F2011CA30E000E58E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
 		B0FCD88111CE55C20093744D /* Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FCD88011CE55C20093744D /* Message.framework */; };
-		DA66ED741575A19500474E0A /* subjectReplace_ComposeBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */; };
+		DA700C281576B9A700549CEC /* subjectReplace_DocumentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA700C271576B9A700549CEC /* subjectReplace_DocumentEditor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,8 @@
 		B0C163C911CB82BF00B6B512 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		B0E275B311CE4CC5000D2AAD /* subjectREplace.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = subjectREplace.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FCD88011CE55C20093744D /* Message.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Message.framework; path = Frameworks/Message.framework; sourceTree = "<group>"; };
-		DA66ED721575A19500474E0A /* subjectReplace_ComposeBackEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subjectReplace_ComposeBackEnd.h; sourceTree = "<group>"; };
-		DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subjectReplace_ComposeBackEnd.m; sourceTree = "<group>"; };
+		DA700C261576B9A700549CEC /* subjectReplace_DocumentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subjectReplace_DocumentEditor.h; sourceTree = "<group>"; };
+		DA700C271576B9A700549CEC /* subjectReplace_DocumentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subjectReplace_DocumentEditor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +82,13 @@
 		B05A9B0D11C60A72002F9DA4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DA66ED721575A19500474E0A /* subjectReplace_ComposeBackEnd.h */,
-				DA66ED731575A19500474E0A /* subjectReplace_ComposeBackEnd.m */,
 				B096DABF11CE4C980019A5CF /* MVMailBundle.h */,
 				B096DAC011CE4C980019A5CF /* MVMailBundle.m */,
 				B07F310D11E0D65300316145 /* Swizzler.h */,
 				B07F310E11E0D65300316145 /* Swizzler.m */,
 				B0C163C911CB82BF00B6B512 /* Prefix.pch */,
+				DA700C261576B9A700549CEC /* subjectReplace_DocumentEditor.h */,
+				DA700C271576B9A700549CEC /* subjectReplace_DocumentEditor.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			files = (
 				B096DAC311CE4C980019A5CF /* MVMailBundle.m in Sources */,
 				B07F310F11E0D65300316145 /* Swizzler.m in Sources */,
-				DA66ED741575A19500474E0A /* subjectReplace_ComposeBackEnd.m in Sources */,
+				DA700C281576B9A700549CEC /* subjectReplace_DocumentEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

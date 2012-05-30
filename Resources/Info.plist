@@ -4,10 +4,14 @@
 <dict>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>StringsToReplaceFWD</key>
+	<array>
+		<string>WG:</string>
+	</array>
 	<key>StringsToREplace</key>
 	<array>
-		<string>AW</string>
-		<string>SV</string>
+		<string>AW:</string>
+		<string>SV:</string>
 	</array>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
