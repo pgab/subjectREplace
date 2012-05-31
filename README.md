@@ -6,14 +6,14 @@ Replaces annoying AW:, WG:, SV: and so on coming from Microsoft Outlook in Apple
 
 Install
 -------
-	- Type in terminal:
+	*Type in terminal:
 
-defaults write com.apple.mail EnableBundles 1
-defaults write com.apple.mail BundleCompatibilityVersion 4
+	defaults write com.apple.mail EnableBundles 1
+	defaults write com.apple.mail BundleCompatibilityVersion 4
 
-	- copy subjectREplace.mailbundle to ~/Library/Mail/Bundles
+	*copy subjectREplace.mailbundle to ~/Library/Mail/Bundles
 
-	- Restart Mail
+	*Restart Mail
 
 Add more abbreviations to be replaced
 -------------------------------------
