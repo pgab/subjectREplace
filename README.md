@@ -1,7 +1,7 @@
 subjectREplace
 ==============
 
-Replaces annoying AW:, WG:, SV: and so on coming from Microsoft Outlook in Apple Mail
+subjecREplace is a plug in for Apple Mail.app. It replaces annoying AW:, WG:, SV: and so on coming from Microsoft Outlook in Apple Mail. Thus long chains of Re: AW: Re: AW: can be avoided. Of course can u do it manually, but why?
 
 
 Install
@@ -24,3 +24,8 @@ Issue Tracker
 -------------
 
 https://github.com/pgab/subjectREplace/issues
+
+Acknowledgement
+---------------
+
+Thanks to https://github.com/stl/MailBundle-Template for making it easy to start with plug ins for Mail.app
