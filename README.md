@@ -6,14 +6,17 @@ subjecREplace is a plug in for Apple Mail.app. It replaces annoying AW:, WG:, SV
 
 Install
 -------
-	*Type in terminal:
+
+*Type in terminal:
 
 	defaults write com.apple.mail EnableBundles 1
 	defaults write com.apple.mail BundleCompatibilityVersion 4
 
-	*copy subjectREplace.mailbundle to ~/Library/Mail/Bundles
+*Download subjectREplace.mailbundle
 
-	*Restart Mail
+*Copy subjectREplace.mailbundle to ~/Library/Mail/Bundles
+
+*Restart Mail.app
 
 Add more abbreviations to be replaced
 -------------------------------------
